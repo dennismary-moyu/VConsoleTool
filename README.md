@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'VConsoleTool'
 ```
 
+```ruby
+// Loading the script onto the web will enable debugging
+let script = VConsoleTool.shared.loadVConsoleScript()
+```
+
 ## Author
 
 dennismary, w1605356103@163.com

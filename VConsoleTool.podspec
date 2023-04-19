@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: give web to add vConsole, use it to debugging web
                        DESC
 
   s.homepage         = 'https://github.com/dennismary/VConsoleTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dennismary' => 'w1605356103@163.com' }
-  s.source           = { :git => 'https://github.com/dennismary/VConsoleTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:dennismary-moyu/VConsoleTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
