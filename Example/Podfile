@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'VConsoleTool_Example' do
+  pod 'VConsoleTool', :path => '../'
+
+  target 'VConsoleTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
